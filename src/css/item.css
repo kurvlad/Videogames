@@ -1,0 +1,5 @@
+.hover:hover{
+    background-color: #ccc;
+    opacity: 90%;
+    transition: all linear 300ms;
+}

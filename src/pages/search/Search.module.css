@@ -1,0 +1,34 @@
+.searchpage{
+    height: fit-content;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    padding: 1rem 5rem;
+    overflowY: scroll;
+}
+.filterOptions{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+.filterOptions span{
+    font-size: 32px;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+.pagination p{
+    color: grey;
+    font-size: 20px;
+}
+.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+}

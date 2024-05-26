@@ -1,0 +1,17 @@
+.box{
+    position: relative;
+}
+.upBtn{
+    border: none;
+    padding: 20px;
+    background-color: #1976d2;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10%;
+    left: 90%;
+    z-index: 100;
+    transition: all linear 300ms;
+}
+.upBtn:hover{
+    opacity: 50%;
+}

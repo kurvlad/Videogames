@@ -1,0 +1,57 @@
+.homepage {
+    height: fit-content;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    padding: 0.5rem 1.5rem;
+}
+.homepage section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    text-align: center;
+}
+.homepage section:first-child{
+    gap: 0;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+.top-btn svg{
+    border: none;
+    background: white;
+}
+.top-btn svg:hover{
+    background-color: #ccc;
+    color: white
+}
+
+.homepage h1 {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 0.8;
+}
+.homepage input:focus{
+    color: rgb(85, 26, 139);
+}
+.filterBox{
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px
+}
+.pagination p{
+    color: grey;
+    font-size: 20px;
+}
+.upBtn{
+    position: fixed;
+    bottom: 50px;
+}
